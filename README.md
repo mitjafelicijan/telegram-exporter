@@ -11,7 +11,7 @@ phones attached to you machine only the first one will be backed up.
 If you close the program the copying of the files will still continue until finished. This
 is one thing that needs to be fixed.
 
-![Screenshot](https://github.com/mitjafelicijan/telegram-exporter/assets/296714/bc841bee-edf0-4969-907d-f51b67272d4f)
+![Screenshot](https://github.com/mitjafelicijan/telegram-exporter/assets/296714/286509ad-1345-4499-8c21-2b0949100a34)
 
 ## Installation && Usage
 
