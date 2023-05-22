@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Main));
             this.buttonCheckForTelegramData = new System.Windows.Forms.Button();
             this.textBoxAdbPath = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -48,9 +49,10 @@
             // buttonCheckForTelegramData
             // 
             this.buttonCheckForTelegramData.Enabled = false;
-            this.buttonCheckForTelegramData.Location = new System.Drawing.Point(258, 183);
+            this.buttonCheckForTelegramData.Location = new System.Drawing.Point(344, 225);
+            this.buttonCheckForTelegramData.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.buttonCheckForTelegramData.Name = "buttonCheckForTelegramData";
-            this.buttonCheckForTelegramData.Size = new System.Drawing.Size(200, 35);
+            this.buttonCheckForTelegramData.Size = new System.Drawing.Size(267, 43);
             this.buttonCheckForTelegramData.TabIndex = 7;
             this.buttonCheckForTelegramData.Text = "Check for Telegram Data";
             this.buttonCheckForTelegramData.UseVisualStyleBackColor = true;
@@ -58,17 +60,19 @@
             // 
             // textBoxAdbPath
             // 
-            this.textBoxAdbPath.Location = new System.Drawing.Point(24, 47);
+            this.textBoxAdbPath.Location = new System.Drawing.Point(32, 58);
+            this.textBoxAdbPath.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBoxAdbPath.Name = "textBoxAdbPath";
-            this.textBoxAdbPath.Size = new System.Drawing.Size(582, 20);
+            this.textBoxAdbPath.Size = new System.Drawing.Size(775, 22);
             this.textBoxAdbPath.TabIndex = 1;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(21, 26);
+            this.label1.Location = new System.Drawing.Point(28, 32);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(95, 15);
+            this.label1.Size = new System.Drawing.Size(104, 16);
             this.label1.TabIndex = 0;
             this.label1.Text = "Path to ADB.exe";
             // 
@@ -78,9 +82,10 @@
             // 
             // buttonSelectAdb
             // 
-            this.buttonSelectAdb.Location = new System.Drawing.Point(612, 45);
+            this.buttonSelectAdb.Location = new System.Drawing.Point(816, 55);
+            this.buttonSelectAdb.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.buttonSelectAdb.Name = "buttonSelectAdb";
-            this.buttonSelectAdb.Size = new System.Drawing.Size(75, 23);
+            this.buttonSelectAdb.Size = new System.Drawing.Size(100, 28);
             this.buttonSelectAdb.TabIndex = 2;
             this.buttonSelectAdb.Text = "Browse";
             this.buttonSelectAdb.UseVisualStyleBackColor = true;
@@ -89,24 +94,27 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(21, 88);
+            this.label2.Location = new System.Drawing.Point(28, 108);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(118, 15);
+            this.label2.Size = new System.Drawing.Size(129, 16);
             this.label2.TabIndex = 3;
             this.label2.Text = "Export directory path";
             // 
             // textBoxOutDir
             // 
-            this.textBoxOutDir.Location = new System.Drawing.Point(24, 106);
+            this.textBoxOutDir.Location = new System.Drawing.Point(32, 130);
+            this.textBoxOutDir.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBoxOutDir.Name = "textBoxOutDir";
-            this.textBoxOutDir.Size = new System.Drawing.Size(582, 20);
+            this.textBoxOutDir.Size = new System.Drawing.Size(775, 22);
             this.textBoxOutDir.TabIndex = 4;
             // 
             // buttonSelectOutDir
             // 
-            this.buttonSelectOutDir.Location = new System.Drawing.Point(612, 104);
+            this.buttonSelectOutDir.Location = new System.Drawing.Point(816, 128);
+            this.buttonSelectOutDir.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.buttonSelectOutDir.Name = "buttonSelectOutDir";
-            this.buttonSelectOutDir.Size = new System.Drawing.Size(75, 23);
+            this.buttonSelectOutDir.Size = new System.Drawing.Size(100, 28);
             this.buttonSelectOutDir.TabIndex = 5;
             this.buttonSelectOutDir.Text = "Browse";
             this.buttonSelectOutDir.UseVisualStyleBackColor = true;
@@ -116,19 +124,21 @@
             // 
             this.progressBarCopy.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.progressBarCopy.Location = new System.Drawing.Point(24, 281);
+            this.progressBarCopy.Location = new System.Drawing.Point(32, 346);
+            this.progressBarCopy.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.progressBarCopy.MarqueeAnimationSpeed = 10;
             this.progressBarCopy.Name = "progressBarCopy";
-            this.progressBarCopy.Size = new System.Drawing.Size(663, 23);
+            this.progressBarCopy.Size = new System.Drawing.Size(884, 28);
             this.progressBarCopy.Step = 1;
             this.progressBarCopy.TabIndex = 100;
             // 
             // buttonDetectDevices
             // 
             this.buttonDetectDevices.Enabled = false;
-            this.buttonDetectDevices.Location = new System.Drawing.Point(24, 183);
+            this.buttonDetectDevices.Location = new System.Drawing.Point(32, 225);
+            this.buttonDetectDevices.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.buttonDetectDevices.Name = "buttonDetectDevices";
-            this.buttonDetectDevices.Size = new System.Drawing.Size(200, 35);
+            this.buttonDetectDevices.Size = new System.Drawing.Size(267, 43);
             this.buttonDetectDevices.TabIndex = 6;
             this.buttonDetectDevices.Text = "Detect available Devices";
             this.buttonDetectDevices.UseVisualStyleBackColor = true;
@@ -137,9 +147,10 @@
             // buttonCopyData
             // 
             this.buttonCopyData.Enabled = false;
-            this.buttonCopyData.Location = new System.Drawing.Point(487, 183);
+            this.buttonCopyData.Location = new System.Drawing.Point(649, 225);
+            this.buttonCopyData.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.buttonCopyData.Name = "buttonCopyData";
-            this.buttonCopyData.Size = new System.Drawing.Size(200, 35);
+            this.buttonCopyData.Size = new System.Drawing.Size(267, 43);
             this.buttonCopyData.TabIndex = 8;
             this.buttonCopyData.Text = "Copy Data to Local Machine";
             this.buttonCopyData.UseVisualStyleBackColor = true;
@@ -148,35 +159,38 @@
             // labelDetectedDevices
             // 
             this.labelDetectedDevices.AutoSize = true;
-            this.labelDetectedDevices.Location = new System.Drawing.Point(21, 230);
+            this.labelDetectedDevices.Location = new System.Drawing.Point(28, 283);
+            this.labelDetectedDevices.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelDetectedDevices.Name = "labelDetectedDevices";
-            this.labelDetectedDevices.Size = new System.Drawing.Size(41, 15);
+            this.labelDetectedDevices.Size = new System.Drawing.Size(45, 16);
             this.labelDetectedDevices.TabIndex = 9;
             this.labelDetectedDevices.Text = "Empty";
             // 
             // labelTelegramDataCheck
             // 
             this.labelTelegramDataCheck.AutoSize = true;
-            this.labelTelegramDataCheck.Location = new System.Drawing.Point(255, 230);
+            this.labelTelegramDataCheck.Location = new System.Drawing.Point(340, 283);
+            this.labelTelegramDataCheck.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelTelegramDataCheck.Name = "labelTelegramDataCheck";
-            this.labelTelegramDataCheck.Size = new System.Drawing.Size(41, 15);
+            this.labelTelegramDataCheck.Size = new System.Drawing.Size(45, 16);
             this.labelTelegramDataCheck.TabIndex = 10;
             this.labelTelegramDataCheck.Text = "Empty";
             // 
             // labelCopyData
             // 
             this.labelCopyData.AutoSize = true;
-            this.labelCopyData.Location = new System.Drawing.Point(484, 230);
+            this.labelCopyData.Location = new System.Drawing.Point(645, 283);
+            this.labelCopyData.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelCopyData.Name = "labelCopyData";
-            this.labelCopyData.Size = new System.Drawing.Size(41, 15);
+            this.labelCopyData.Size = new System.Drawing.Size(45, 16);
             this.labelCopyData.TabIndex = 11;
             this.labelCopyData.Text = "Empty";
             // 
             // Main
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(713, 334);
+            this.ClientSize = new System.Drawing.Size(951, 411);
             this.Controls.Add(this.labelCopyData);
             this.Controls.Add(this.labelTelegramDataCheck);
             this.Controls.Add(this.labelDetectedDevices);
@@ -191,6 +205,8 @@
             this.Controls.Add(this.buttonCheckForTelegramData);
             this.Controls.Add(this.label2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MaximizeBox = false;
             this.Name = "Main";
             this.Text = "Telegram Data Exporter";
