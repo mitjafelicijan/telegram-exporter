@@ -34,5 +34,17 @@ namespace telegram_exporter.Properties {
                 this["AdbPath"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string OutDir {
+            get {
+                return ((string)(this["OutDir"]));
+            }
+            set {
+                this["OutDir"] = value;
+            }
+        }
     }
 }
