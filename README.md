@@ -11,6 +11,9 @@ phones attached to you machine only the first one will be backed up.
 If you close the program the copying of the files will still continue until finished. This
 is one thing that needs to be fixed.
 
+If the button for checking devices doesn't appear after you select both of the ADB and out
+dir, then close application and reopen it. This is a bug that needs to get fixed.
+
 ![Screenshot](https://github.com/mitjafelicijan/telegram-exporter/assets/296714/286509ad-1345-4499-8c21-2b0949100a34)
 
 ## Installation && Usage
